@@ -1,0 +1,34 @@
+<p>
+  to-dos works! 123
+</p>
+
+
+<table class="table">
+  <thead>
+    <tr>
+      <td scope="col">
+        Id
+      </td>
+      <td>
+        Name
+      </td>
+      <td>
+        Finished
+      </td>
+    </tr>
+
+  </thead>
+
+
+  <tbody>
+
+    <tr *ngFor="let todo of todos">
+      <td>{{todo.id}}</td>
+      <td>{{todo.name}}</td>
+      <td>{{todo.finished}}</td>
+    </tr>
+
+  </tbody>
+
+
+</table>
